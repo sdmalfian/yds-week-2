@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <!-- fonts-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@600&family=Fraunces:wght@700;900&display=swap"
+    rel="stylesheet">
+  <!-- link to css stylesheet -->
+  <link rel="stylesheet" href="css/style.css">
+  <title>Frontend Mentor | Sunnyside agency landing page</title>
+</head>
+
+<body>
+  <div class="wrapper">
+    <header class="header">
+      <nav class="navigation">
+        <a href="#" class="logo">
+          <img src="./images/logo.svg" class="logo__image" alt="sunnyside logo">
+        </a>
+        <ul class="navigation__list">
+          <li class="navigation__item">
+            <a href="#" class="navigation__link">About</a>
+          </li>
+          <li class="navigation__item">
+            <a href="#" class="navigation__link">Services</a>
+          </li>
+          <li class="navigation__item">
+            <a href="#" class="navigation__link">Projects</a>
+          </li>
+          <li class="navigation__item">
+            <a href="#" id="contact" class="navigation__link">Contact</a>
+          </li>
+        </ul>
+      </nav>
+      <div class="header__content">
+        <h1 class="header__title">We Are Creatives</h1>
+        <img class="header__arrow" src="./images/icon-arrow-down.svg" alt="scroll down">
+      </div>
+    </header>
+    <main class="main">
+      <section class="feature feature-1">
+        <div class="feature__content">
+          <h2 class="feature__header">
+            Transform your brand
+          </h2>
+          <p class="feature__paragraph text-dark-grayish-blue">
+            We are a full-service creative agency specializing in helping brands grow fast.
+            Engage your clients through compelling visuals that do most of the marketing for you.
+          </p>
+          <a href="#" class="feature__btn btn--yellow">
+            Learn More
+          </a>
+        </div>
+        <div class="feature__img-container">
+          <img class="feature__img" src="./images/desktop/image-transform.jpg"
+            alt="Transform your brand like an egg grow to a chicken">
+        </div>
+      </section>
+      <section class="feature feature-2">
+        <div class="feature__content reverse">
+          <h2 class="feature__header">
+            Stand out to the right audience
+          </h2>
+          <p class="feature__paragraph text-dark-grayish-blue">
+            Using a collaborative formula of designers, researchers, photographers, videographers, and copywriters,
+            we’ll build and extend your brand in digital places.
+          </p>
+          <a href="#" class="feature__btn btn--pink">
+            Learn More
+          </a>
+        </div>
+        <div class="feature__img-container">
+          <img class="feature__img" src="./images/desktop/image-stand-out.jpg" alt="Pink glass">
+        </div>
+      </section>
+      <section class="feature ">
+        <div class="feature-inline feature__graphic-dsn">
+          <div class="feature-inline__content">
+            <h3 class="feature-inline__header text-dark-cyan">
+              Graphic Design
+            </h3>
+            <p class="feature__paragraph text-wrap text-dark-cyan">
+              Great design makes you memorable. We deliver artwork that underscores your brand message and captures
+              potential clients’ attention.
+            </p>
+          </div>
+        </div>
+        <div class="feature-inline feature__photography">
+          <div class="feature-inline__content">
+            <h3 class="feature-inline__header text-dark-blue">
+              Photography
+            </h3>
+            <p class="feature__paragraph text-wrap text-dark-blue">
+              Increase your credibility by getting the most stunning, high-quality photos that improve your business
+              image.
+            </p>
+          </div>
+        </div>
+      </section>
+      <section class="testimonials">
+        <h4 class="testimonial__heading">
+          Client Testimonials
+        </h4>
+        <div class="testimonials__wrapper">
+          <div class="testimonial__card">
+            <img src="./images/image-emily.jpg" alt="Emily" class="testimonial-client">
+            <p class="testimonial__review">We put our trust in Sunnyside and they delivered, making sure our needs were
+              met and deadlines were always hit.</p>
+            <h5 class="client-name">Emily R.</h5>
+            <p class="client-title">Marketing director</p>
+          </div>
+          <div class="testimonial__card">
+            <img src="./images/image-thomas.jpg" alt="Thomas" class="testimonial-client">
+            <p class="testimonial__review">Sunnyside’s enthusiasm coupled with their keen interest in our brand’s
+              success made it a satisfying and enjoyable experience.</p>
+            <h5 class="client-name">Thomas S.</h5>
+            <p class="client-title">Chief Operating Officer</p>
+          </div>
+          <div class="testimonial__card">
+            <img src="./images/image-jennie.jpg" alt="Jennie" class="testimonial-client">
+            <p class="testimonial__review">Incredible end result! Our sales increased over 400% when we worked with
+              Sunnyside. Highly recommended!</p>
+            <h5 class="client-name">Jennie F.</h5>
+            <p class="client-title">Business Owner</p>
+          </div>
+        </div>
+      </section>
+      <section class="gallery">
+        <div class="gallery-wrapper">
+          <img src="images/desktop/image-gallery-milkbottles.jpg"
+            srcset="images/mobile/image-gallery-milkbottles.jpg 376w, images/desktop/image-gallery-milkbottles.jpg 720w"
+            sizes="(max-width: 1200px) calc(100vw / 4), (max-width: 576px) calc(100vw / 2), (max-width: 376px) calc(100vw / 2)"
+            alt="Milkbottles">
+          <img src="images/desktop/image-gallery-orange.jpg"
+            srcset="images/mobile/image-gallery-orange.jpg 376w, images/desktop/image-gallery-orange.jpg 720w"
+            sizes="(max-width: 1200px) calc(100vw / 4), (max-width: 576px) calc(100vw / 2), (max-width: 376px) calc(100vw / 2)"
+            alt="Orange">
+          <img src="images/desktop/image-gallery-cone.jpg"
+            srcset="images/mobile/image-gallery-cone.jpg 376w, images/desktop/image-gallery-cone.jpg 720w"
+            sizes="(max-width: 1200px) calc(100vw / 4), (max-width: 576px) calc(100vw / 2), (max-width: 376px) calc(100vw / 2)"
+            alt="Ice cream cone">
+          <img src="images/desktop/image-gallery-sugarcubes.jpg"
+            srcset="images/mobile/image-gallery-sugarcubes.jpg 376w, images/desktop/image-gallery-sugarcubes.jpg 720w"
+            sizes="(max-width: 1200px) calc(100vw / 4), (max-width: 576px) calc(100vw / 2), (max-width: 376px) calc(100vw / 2)"
+            alt="Sugar cubes">
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <a href="#"><img src="images/logo.svg" alt="logo image" class="footer_img"></a>
+      <ul class="footer__list">
+        <li class="footer__item"><a href="#" class="footer__link">About</a></li>
+        <li class="footer__item"><a href="#" class="footer__link">Services</a></li>
+        <li class="footer__item"><a href="#" class="footer__link">Projects</a></li>
+      </ul>
+      <ul class="social_icons">
+        <li class="social_icon">
+          <a href="http://www.facebook.com">
+            <img src="images/icon-facebook.svg" alt="facebook logo">
+          </a>
+        </li>
+        <li class="social_icon">
+          <a href="http://www.instagram.com">
+            <img src="images/icon-instagram.svg" alt="instagram logo">
+          </a>
+        </li>
+
+        <li class="social_icon">
+          <a href="http://www.twitter.com">
+            <img src="images/icon-twitter.svg" alt="twitter logo">
+          </a>
+        </li>
+
+        <li class="social_icon">
+          <a href="http://www.pinterest.com">
+            <img src="images/icon-pinterest.svg" alt="pinterest logo">
+          </a>
+        </li>
+      </ul>
+    </footer>
+    <div class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+      Coded by <a href="#">Sadam Alfian</a>.
+    </div>
+  </div>
+</body>
+
+</html>
