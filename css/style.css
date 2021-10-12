@@ -62,6 +62,17 @@ a {
   background-position: bottom;
 }
 
+.hamburger {
+  display: none;
+}
+
+.bar {
+  display: block;
+  width: 25px;
+  height: 3px;
+  background-color: white;
+  margin: 5px auto;
+}
 /* Navigation */
 
 .navigation {
@@ -271,7 +282,6 @@ a {
 }
 
 .client-title {
-  font-size: 0.8rem;
   margin-top: 2rem;
   color: var(--grayish-blue);
   font-size: 1rem;
