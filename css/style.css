@@ -54,6 +54,28 @@ a {
   margin: 0 auto;
 }
 
+/* top btn */
+
+#topBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 18px;
+  z-index: 99;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  background-color: var(--yellow);
+  color: white;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 4px;
+}
+
+#topBtn:hover {
+  background-color: var(--dark-moderate-cyan);
+}
+
 /* header */
 .header {
   height: 100vh;
